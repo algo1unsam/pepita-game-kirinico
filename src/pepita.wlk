@@ -8,7 +8,7 @@ object pepita {
 	var property posicion = game.at(3,3)
 	method imagen() {
 		if(energia<10){
-			return "pepitaCanchera"
+			return "pepitaCanchera.png"
 		}
 		else if (energia>100){
 			return "pepita-gorda-raw.png"	
@@ -46,6 +46,7 @@ object pepita {
 	}
 	
 	method teEncontro(alguien){
+		roque.encontrarceConAve()
 		game.say(alguien, "HOLA")
 	}
 	
