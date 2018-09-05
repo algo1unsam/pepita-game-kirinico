@@ -13,8 +13,3 @@ object alpiste {
 		alguien.levantarComida(self)
 	}
 }
-
-object nada{
-	method energia() = 0
-	
-}
